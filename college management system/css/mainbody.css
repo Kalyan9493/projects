@@ -1,0 +1,37 @@
+#Container{
+	width: 1349px;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 60px;
+	margin-top: 11px;
+}
+#Header{
+	
+	background-image:url(../images/logo.jpg);
+	height:197px;
+	width:197px;
+	background-color:#999;
+	background-repeat:no-repeat;
+	background-position:left;
+
+}
+
+#SideBar{
+	width:450px;
+	height:800px;
+	background-color:#6C6;
+	float:left;
+}
+#MainBody{
+	width:897px;
+	height:800px;
+	float:right;
+	background-color:#0FF;
+}
+#Footer{
+	height:100px;
+	margin-bottom:30px;
+	background-color:#C03;
+	clear:both;
+	
+}

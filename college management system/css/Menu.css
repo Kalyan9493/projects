@@ -1,0 +1,54 @@
+#Menu{
+	height:40px;
+	
+	background-color: #0CF;
+}
+#Menu ul{
+	margin:0;
+	padding:0px;
+	list-style:none;
+}
+#Menu li{
+	list-style-type:none;
+	float:left;
+	height:40px;
+	text-align:left;
+	font-size:14px
+	line-height:40px;
+	font-family: "Times New Roman", Times, serif;
+	font-size:14px;
+	padding: 0 10px;
+
+}
+#Menu li a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+#Menu li:Hover{
+	background-color: #6F9;
+}
+
+#Menu ul li {
+	list-style-type:none;
+	border:0px solid white;
+	display:block;
+	width:163px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	position:relative;
+}
+
+#Menu ul ul{
+	position:absolute;
+	display:none;
+}
+#Menu ul li:Hover >  ul{
+	
+	background-color:green;
+	display:block;
+}
