@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="1800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <TextField fx:id="regempid" layoutX="603.0" layoutY="164.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="regpassword" layoutX="603.0" layoutY="230.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="firstname" layoutX="603.0" layoutY="289.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="lastname" layoutX="603.0" layoutY="356.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label layoutX="453.0" layoutY="163.0" prefHeight="27.0" prefWidth="115.0" text="Employee ID :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="228.0" prefHeight="27.0" prefWidth="115.0" text="Password :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="469.0" layoutY="288.0" prefHeight="27.0" prefWidth="104.0" text="First Name :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="469.0" layoutY="355.0" prefHeight="27.0" prefWidth="104.0" text="Last Name :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="593.0" layoutY="562.0" mnemonicParsing="false" onAction="#registerdb" prefHeight="35.0" prefWidth="88.0" text="Save">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="registerlabel" layoutX="522.0" layoutY="613.0" prefHeight="57.0" prefWidth="247.0" textFill="#22d72e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailid" layoutX="603.0" layoutY="426.0" prefHeight="39.0" prefWidth="224.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label layoutX="485.0" layoutY="427.0" prefHeight="27.0" prefWidth="88.0" text="Email ID :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mobileno" layoutX="603.0" layoutY="487.0" prefHeight="39.0" prefWidth="224.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="464.0" layoutY="481.0" prefHeight="39.0" prefWidth="115.0" text="Mobile No :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
